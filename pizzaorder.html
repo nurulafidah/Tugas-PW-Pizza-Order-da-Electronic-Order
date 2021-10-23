@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <BODY BGCOLOR="lightcoral"></BODY>
+        <title>Black Goose Pizza | Pizza-on-Demand</title>
+    </head>
+    <body>
+        <h1>Black Goose Pizza | Pizza-on-Demand</h1>
+        <form action="pizzaorder.html" method="POST"></form>
+            <fieldset>
+                <legend>Our 12" wood-fired pizzas are available for delivery. Build your custom pizza and we'll deliver it within an hour.</legend>
+                <br>
+                <p>Your Information</p>
+                    <p><label for="">Name:</label>
+                        <input type="text" name="nama" id="nama"></p>
+                    <p><label for="">Address:</label>
+                        <input type="text" name="Address" id="Address"><p>
+                    <p><label for="">Telephon Number:</label>
+                        <input type="text" name="Telephon Number" id="Telephon Number"></p>
+                    <p><label for="">Email:</label>
+                        <input type="text" name="Email" id="Email"></p>
+                    <p><label for="">Delivery Instructions:</label>
+                        <br>
+                        <textarea name="Delivery Instructions" cols="40" rows="3" id="Delivery Instructions" placeholder="No more than 400 characters long"></textarea></p>
+                    <p><b>Design Your Dream Pizza</b></p>
+                    <p>Pizza specs</p>
+                    <p>Crust (Choose one):</p>
+                    <ol style="list-style-type: none;">
+                        <li><input type="radio" name="Classic White" value="Classic White" checked>Classic White</li>
+                        <li><input type="radio" name="Classic White" value="Classic White" checked>Multigrain</li>
+                        <li><input type="radio" name="Classic White" value="Classic White" checked>Cheese-stuffed curst</li>
+                        <li><input type="radio" name="Classic White" value="Classic White" checked>Gluten-free</li>
+                    </ol>
+                    <p>Toppings (Choose as many as you want):</p>
+                        <div>
+                            <input checked type="checkbox" id="toppings" name="toppings" value="Red sauce">
+                            <label for="toppings"> Red sauce</label><br>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="toppings" name="toppings" value="Red sauce">
+                            <label for="toppings"> White sauce</label><br>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="toppings" name="toppings" value="Red sauce">
+                            <label for="toppings"> Mozarella Cheese</label><br>
+                        </div>
+                            <input type="checkbox" id="toppings" name="toppings" value="Red sauce">
+                            <label for="toppings"> Pepperoni</label><br>
+                        <div>
+                            <input type="checkbox" id="toppings" name="toppings" value="Red sauce">
+                            <label for="toppings"> Mushrooms</label><br>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="toppings" name="toppings" value="Red sauce">
+                            <label for="toppings"> Peppers</label><br>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="toppings" name="toppings" value="Red sauce">
+                            <label for="toppings"> Anchovies</label><br>
+                        </div>
+                    <p>Number</p>
+                    <p>How many pizzas:<select id="pizza">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                    </p>
+                <p>
+                    <input type="submit" value="Bring me a pizza!">
+                    <input type="reset" value="Reset">
+                </p>
+            </fieldset>
+        </form> 
+    </body>
+</html>
